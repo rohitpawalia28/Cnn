@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ALERT_20251110112245_10.64.15.250",
+    "timestamp": "2025-11-10T11:22:45.144670",
+    "severity": "MEDIUM",
+    "pattern_type": "data_exfiltration",
+    "source_ip": "10.64.15.250",
+    "destination_ip": "10.64.15.79",
+    "protocol": "UDP",
+    "packet_count": 14,
+    "byte_count": 1538,
+    "threat_score": 50,
+    "description": "Large data transfer detected: 1538 bytes from 10.64.15.250 to 10.64.15.79"
+  }
+]
