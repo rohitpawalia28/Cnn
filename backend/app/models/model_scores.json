@@ -1,0 +1,46 @@
+{
+  "isolation_forest": {
+    "training_time_sec": 0.1053,
+    "n_anomalies": 17,
+    "silhouette_separation": 0.78514,
+    "cluster_compactness": 1.27861,
+    "anomaly_separation": 6.4666,
+    "density_drop": -0.31192,
+    "global_outlier_factor": 1.55137,
+    "stability_index": 99.41,
+    "model_strength": 42.05
+  },
+  "oneclass_svm": {
+    "training_time_sec": 0.001,
+    "n_anomalies": 15,
+    "silhouette_separation": 0.74848,
+    "cluster_compactness": 1.39071,
+    "anomaly_separation": 5.37106,
+    "density_drop": -0.0889,
+    "global_outlier_factor": 0.36006,
+    "stability_index": 92.67,
+    "model_strength": 38.77
+  },
+  "local_outlier_factor": {
+    "training_time_sec": 0.0035,
+    "n_anomalies": 12,
+    "silhouette_separation": 0.50675,
+    "cluster_compactness": 1.68971,
+    "anomaly_separation": 2.1549,
+    "density_drop": -11.95502,
+    "global_outlier_factor": 2.65301,
+    "stability_index": 87.0,
+    "model_strength": 9.35
+  },
+  "elliptic_envelope": {
+    "training_time_sec": 0.0216,
+    "n_anomalies": 17,
+    "silhouette_separation": 0.69917,
+    "cluster_compactness": 1.46061,
+    "anomaly_separation": 5.65896,
+    "density_drop": -6560289163.06621,
+    "global_outlier_factor": 9.0934,
+    "stability_index": 99.41,
+    "model_strength": -13120578278.26
+  }
+}

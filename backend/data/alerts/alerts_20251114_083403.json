@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ALERT_20251114083403_162.159.198.2",
+    "timestamp": "2025-11-14T08:34:03.141204",
+    "severity": "CRITICAL",
+    "pattern_type": "ddos_suspect",
+    "source_ip": "162.159.198.2",
+    "destination_ip": "172.17.101.156",
+    "protocol": "UDP",
+    "packet_count": 17750,
+    "byte_count": 3896058,
+    "threat_score": 80,
+    "description": "Potential DDoS attack detected with 481.78 packets/sec from 162.159.198.2"
+  },
+  {
+    "id": "ALERT_20251114083403_172.17.102.153",
+    "timestamp": "2025-11-14T08:34:03.142217",
+    "severity": "CRITICAL",
+    "pattern_type": "ddos_suspect",
+    "source_ip": "172.17.102.153",
+    "destination_ip": "239.255.255.250",
+    "protocol": "UDP",
+    "packet_count": 2,
+    "byte_count": 358,
+    "threat_score": 80,
+    "description": "Potential DDoS attack detected with 1876.23 packets/sec from 172.17.102.153"
+  },
+  {
+    "id": "ALERT_20251114083403_172.17.98.131",
+    "timestamp": "2025-11-14T08:34:03.142217",
+    "severity": "HIGH",
+    "pattern_type": "data_exfiltration",
+    "source_ip": "172.17.98.131",
+    "destination_ip": "224.0.0.251",
+    "protocol": "UDP",
+    "packet_count": 515,
+    "byte_count": 706105,
+    "threat_score": 65,
+    "description": "Large data transfer detected: 706105 bytes from 172.17.98.131 to 224.0.0.251"
+  },
+  {
+    "id": "ALERT_20251114083403_172.17.98.36",
+    "timestamp": "2025-11-14T08:34:03.142217",
+    "severity": "HIGH",
+    "pattern_type": "data_exfiltration",
+    "source_ip": "172.17.98.36",
+    "destination_ip": "224.0.0.251",
+    "protocol": "UDP",
+    "packet_count": 670,
+    "byte_count": 874857,
+    "threat_score": 65,
+    "description": "Large data transfer detected: 874857 bytes from 172.17.98.36 to 224.0.0.251"
+  },
+  {
+    "id": "ALERT_20251114083403_172.17.96.251",
+    "timestamp": "2025-11-14T08:34:03.142217",
+    "severity": "CRITICAL",
+    "pattern_type": "ddos_suspect",
+    "source_ip": "172.17.96.251",
+    "destination_ip": "255.255.255.255",
+    "protocol": "UDP",
+    "packet_count": 7,
+    "byte_count": 1232,
+    "threat_score": 80,
+    "description": "Potential DDoS attack detected with 900.92 packets/sec from 172.17.96.251"
+  },
+  {
+    "id": "ALERT_20251114083403_172.17.103.167",
+    "timestamp": "2025-11-14T08:34:03.142217",
+    "severity": "CRITICAL",
+    "pattern_type": "ddos_suspect",
+    "source_ip": "172.17.103.167",
+    "destination_ip": "255.255.255.255",
+    "protocol": "UDP",
+    "packet_count": 5,
+    "byte_count": 880,
+    "threat_score": 80,
+    "description": "Potential DDoS attack detected with 1217.43 packets/sec from 172.17.103.167"
+  },
+  {
+    "id": "ALERT_20251114083403_172.17.100.130",
+    "timestamp": "2025-11-14T08:34:03.142217",
+    "severity": "CRITICAL",
+    "pattern_type": "ddos_suspect",
+    "source_ip": "172.17.100.130",
+    "destination_ip": "224.0.0.251",
+    "protocol": "UDP",
+    "packet_count": 2,
+    "byte_count": 423,
+    "threat_score": 80,
+    "description": "Potential DDoS attack detected with 1128.71 packets/sec from 172.17.100.130"
+  }
+]

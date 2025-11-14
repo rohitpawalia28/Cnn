@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ALERT_20251113071551_172.16.1.1",
+    "timestamp": "2025-11-13T07:15:51.937574",
+    "severity": "CRITICAL",
+    "pattern_type": "port_scan",
+    "source_ip": "172.16.1.1",
+    "destination_ip": "172.17.97.118",
+    "protocol": "TCP",
+    "packet_count": 780,
+    "byte_count": 705243,
+    "threat_score": 85,
+    "description": "Possible port scan detected from 172.16.1.1 scanning 41 ports"
+  },
+  {
+    "id": "ALERT_20251113071551_172.17.97.118",
+    "timestamp": "2025-11-13T07:15:51.938574",
+    "severity": "CRITICAL",
+    "pattern_type": "ddos_suspect",
+    "source_ip": "172.17.97.118",
+    "destination_ip": "57.144.211.32",
+    "protocol": "UDP",
+    "packet_count": 8498,
+    "byte_count": 8514526,
+    "threat_score": 80,
+    "description": "Potential DDoS attack detected with 394.66 packets/sec from 172.17.97.118"
+  },
+  {
+    "id": "ALERT_20251113071551_172.17.99.99",
+    "timestamp": "2025-11-13T07:15:51.938574",
+    "severity": "CRITICAL",
+    "pattern_type": "ddos_suspect",
+    "source_ip": "172.17.99.99",
+    "destination_ip": "224.0.0.251",
+    "protocol": "UDP",
+    "packet_count": 5,
+    "byte_count": 5511,
+    "threat_score": 80,
+    "description": "Potential DDoS attack detected with 2650.93 packets/sec from 172.17.99.99"
+  },
+  {
+    "id": "ALERT_20251113071551_172.17.98.122",
+    "timestamp": "2025-11-13T07:15:51.938574",
+    "severity": "CRITICAL",
+    "pattern_type": "ddos_suspect",
+    "source_ip": "172.17.98.122",
+    "destination_ip": "224.0.0.251",
+    "protocol": "UDP",
+    "packet_count": 2,
+    "byte_count": 513,
+    "threat_score": 80,
+    "description": "Potential DDoS attack detected with 629.73 packets/sec from 172.17.98.122"
+  }
+]
